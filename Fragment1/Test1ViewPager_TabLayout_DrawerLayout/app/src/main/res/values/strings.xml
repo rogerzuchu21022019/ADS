@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <string name="open_drawer">Open Drawer Menu</string>
+    <string name="close_drawer">Close Drawer Menu</string>
+    <string name="home_name">Home</string>
+    <string name="favorite_name">Favorite</string>
+    <string name="search_name">Search</string>
+    <string name="profile_name">Profile</string>
+    <string name="text_name">Nam</string>
+    <string name="text_mail">vunam@gmail.com</string>
+    <string name="ads_1">Quang cao 1</string>
+    <string name="ads_2">Quang cao 2</string>
+    <string name="ads_3">Quang cao 3</string>
+</resources>

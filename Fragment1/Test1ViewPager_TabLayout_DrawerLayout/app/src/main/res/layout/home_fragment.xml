@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <!--    <FrameLayout-->
+    <!--        android:id="@+id/fmContainer1"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="1" />-->
+
+    <!--    <FrameLayout-->
+    <!--        android:id="@+id/fmContainer2"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="1" />-->
+
+    <!--    <FrameLayout-->
+    <!--        android:id="@+id/fmContainer3"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="1" />-->
+
+    <!--    <FrameLayout-->
+    <!--        android:id="@+id/fmContainer4"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="1" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvNameAds1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ads_1"
+            android:textSize="20sp" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPagerHome1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvNameAds2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ads_2"
+            android:textSize="20sp" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPagerHome2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvNameAds3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ads_3"
+            android:textSize="20sp" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPagerHome3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="10dp" />
+    </LinearLayout>
+</LinearLayout>

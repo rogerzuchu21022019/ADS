@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawerHome"
+            android:icon="@drawable/home"
+            android:title="@string/home_name" />
+        <item
+            android:id="@+id/drawerFavorite"
+            android:icon="@drawable/favorite"
+            android:title="@string/favorite_name" />
+        <item
+            android:id="@+id/drawerSearch"
+            android:icon="@drawable/search"
+            android:title="@string/search_name" />
+        <item
+            android:id="@+id/drawerProfile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile_name" />
+    </group>
+</menu>
